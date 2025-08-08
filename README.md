@@ -17,7 +17,7 @@ transaction_id, user_id,amount, merchant,transaction_timestamp , and is_fraud (b
 5. BigQuery Load Job ingests Parquet files into an analytics table for querying.
 6. (Planned): MERGE logic to make ingestion idempotent and prevent duplicate rows.
 7. (Planned): Transformations and modeling with dbt.
-8.  (Planned): Orchestration with Apache Airflow or Composer
+8.  (Planned): Orchestration with Apache Airflow
 
 ### Technologies Used
 * Python (pandas, pyarrow, google-cloud-storage, confluent-kafka, Faker)
