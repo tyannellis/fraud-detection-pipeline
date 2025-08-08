@@ -19,9 +19,35 @@ services:
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
 
-  ingestor:
-    build: ./ingestion 
+  producer:
+    build:
+      context: .
+      dockerfile: producer/Dockerfile
     depends_on:
       - kafka
     environment:
       KAFKA_BROKER: kafka:9092 
+  
+  consumer:
+    build:
+      context: .
+      dockerfile: consumer/Dockerfile
+    volumes:
+      - ./keys:/keys
+    depends_on:
+      - kafka
+    environment:
+      KAFKA_BROKER: kafka:9092
+      GOOGLE_APPLICATION_CREDENTIALS: /keys/key.json
+  
+  loader:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python loader/gcs_to_bigquery_loader.py
+    volumes:
+      - ./loader:/app/loader
+      - ./keys:/app/keys
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/keys/key.json
+    

@@ -1,0 +1,75 @@
+2025-07-23 21:28:44,044 [INFO] 🚀 Starting transaction stream...
+2025-07-23 21:28:44,046 [INFO] Created 50 users
+2025-07-23 21:28:44,050 [INFO] Created 50 users
+2025-07-23 21:28:44,053 [INFO] Created 50 users
+2025-07-23 21:28:44,055 [INFO] Created 50 users
+2025-07-23 21:28:44,061 [INFO] Created 50 users
+2025-07-23 21:28:44,062 [INFO] Created 50 users
+2025-07-23 21:28:44,068 [INFO] Created 50 users
+2025-07-23 21:28:44,070 [INFO] Created 50 users
+2025-07-23 21:28:44,076 [INFO] Created 50 users
+2025-07-23 21:28:44,079 [INFO] Created 50 users
+2025-07-23 21:28:44,092 [INFO] Created 50 users
+2025-07-23 21:28:44,093 [INFO] Created 50 users
+2025-07-23 21:28:44,098 [INFO] Created 50 users
+2025-07-23 21:28:44,100 [INFO] Created 50 users
+2025-07-23 21:28:44,103 [INFO] Created 50 users
+2025-07-23 21:28:44,105 [INFO] Created 50 users
+2025-07-23 21:28:44,108 [INFO] Created 50 users
+2025-07-23 21:28:44,112 [INFO] Created 50 users
+2025-07-23 21:28:44,114 [INFO] Created 50 users
+2025-07-23 21:28:44,119 [INFO] Created 50 users
+2025-07-23 21:28:44,125 [INFO] Created 50 users
+2025-07-23 21:28:44,129 [INFO] Created 50 users
+2025-07-23 21:28:44,131 [INFO] Created 50 users
+2025-07-23 21:28:44,134 [INFO] Created 50 users
+2025-07-23 21:28:44,144 [INFO] Created 50 users
+2025-07-23 21:28:44,145 [INFO] Created 50 users
+2025-07-23 21:28:44,146 [INFO] Created 50 users
+2025-07-23 21:28:44,154 [INFO] Created 50 users
+2025-07-23 21:28:44,155 [INFO] Created 50 users
+2025-07-23 21:28:44,160 [INFO] Created 50 users
+2025-07-23 21:28:44,161 [INFO] Created 50 users
+2025-07-23 21:28:44,166 [INFO] Created 50 users
+2025-07-23 21:28:44,169 [INFO] Created 50 users
+2025-07-23 21:28:44,172 [INFO] Created 50 users
+2025-07-23 21:28:44,175 [INFO] Created 50 users
+2025-07-23 21:28:44,185 [INFO] Created 50 users
+2025-07-23 21:28:44,186 [INFO] Created 50 users
+2025-07-23 21:28:44,187 [INFO] Created 50 users
+2025-07-23 21:28:44,191 [INFO] Created 50 users
+2025-07-23 21:28:44,193 [INFO] Created 50 users
+2025-07-23 21:28:44,195 [INFO] Created 50 users
+2025-07-23 21:28:44,204 [INFO] Created 50 users
+2025-07-23 21:28:44,208 [INFO] Created 50 users
+2025-07-23 21:28:44,209 [INFO] Created 50 users
+2025-07-23 21:28:44,212 [INFO] Created 50 users
+2025-07-23 21:28:44,217 [INFO] Created 50 users
+2025-07-23 21:28:44,220 [INFO] Created 50 users
+2025-07-23 21:28:44,239 [INFO] Created 50 users
+2025-07-23 21:28:44,243 [INFO] Created 50 users
+2025-07-23 21:28:44,245 [INFO] Created 50 users
+2025-07-23 21:28:44,291 [ERROR] Failed to send message: module 'random' has no attribute 'randit'
+2025-07-23 21:28:44,294 [INFO] Producer Closed
+2025-07-23 21:31:40,265 [INFO] 🚀 Starting transaction stream...
+2025-07-23 21:31:40,294 [INFO] Created 50 users
+2025-07-23 21:31:42,308 [INFO] ✅ Sent to transactions [0] at offset 182
+2025-07-23 21:31:44,311 [INFO] ✅ Sent to transactions [0] at offset 183
+2025-07-23 21:31:46,315 [INFO] ✅ Sent to transactions [0] at offset 184
+2025-07-23 21:31:48,325 [INFO] ✅ Sent to transactions [0] at offset 185
+2025-07-23 21:31:50,338 [INFO] ✅ Sent to transactions [0] at offset 186
+2025-07-23 21:31:52,362 [INFO] ✅ Sent to transactions [0] at offset 187
+2025-07-23 21:31:54,369 [INFO] ✅ Sent to transactions [0] at offset 188
+2025-07-23 21:31:56,376 [INFO] ✅ Sent to transactions [0] at offset 189
+2025-07-23 21:31:58,380 [INFO] ✅ Sent to transactions [0] at offset 190
+2025-07-23 21:32:00,384 [INFO] ✅ Sent to transactions [0] at offset 191
+2025-07-23 21:32:02,390 [INFO] ✅ Sent to transactions [0] at offset 192
+2025-07-23 21:32:04,439 [INFO] ✅ Sent to transactions [0] at offset 193
+2025-07-23 21:32:06,441 [INFO] ✅ Sent to transactions [0] at offset 194
+2025-07-23 21:32:08,445 [INFO] ✅ Sent to transactions [0] at offset 195
+2025-07-23 21:32:10,465 [INFO] ✅ Sent to transactions [0] at offset 196
+2025-07-23 21:32:12,482 [INFO] ✅ Sent to transactions [0] at offset 197
+2025-07-23 21:32:14,791 [INFO] ✅ Sent to transactions [0] at offset 198
+2025-07-23 21:32:16,796 [INFO] ✅ Sent to transactions [0] at offset 199
+2025-07-23 21:32:18,804 [INFO] ✅ Sent to transactions [0] at offset 200
+2025-07-23 21:32:20,808 [INFO] ✅ Sent to transactions [0] at offset 201

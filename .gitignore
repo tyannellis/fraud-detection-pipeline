@@ -1,5 +1,23 @@
-venv/
+# GCP Credentials
+keys/
+*.json
+
+# Python
 __pycache__/
-*.pyc
-logs/
-.env
+*.py[cod]
+*.egg
+*.egg-info/
+
+# Virtual Envs
+env/
+venv/
+.venv/
+
+
+# Local output
+*.parquet
+transactions/
+
+# IDE and OS
+.vscode/
+.DS_Store

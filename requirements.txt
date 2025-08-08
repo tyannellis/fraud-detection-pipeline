@@ -1,0 +1,6 @@
+pandas
+pyarrow
+confluent-kafka
+google-cloud-storage
+faker
+google-cloud-bigquery
