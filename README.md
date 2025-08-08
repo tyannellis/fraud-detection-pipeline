@@ -1,4 +1,4 @@
-# fraud-detection-pipeline
+# Credit Card Fraud Detection – Streaming Data Pipeline to BigQuery
 
 ## Overview
 This project simulates a real-time credit card transaction environment for fraud detection analytics.
@@ -16,8 +16,8 @@ transaction_id, user_id,amount, merchant,transaction_timestamp , and is_fraud (b
 4. Google Cloud Storage (GCS) stores Parquet files for durability and scalability.
 5. BigQuery Load Job ingests Parquet files into an analytics table for querying.
 6. (Planned): MERGE logic to make ingestion idempotent and prevent duplicate rows.
-7.(Planned): Transformations and modeling with dbt.
-8.(Planned): Orchestration with Apache Airflow or Composer
+7. (Planned): Transformations and modeling with dbt.
+8.  (Planned): Orchestration with Apache Airflow or Composer
 
 ### Technologies Used
 * Python (pandas, pyarrow, google-cloud-storage, confluent-kafka, Faker)
