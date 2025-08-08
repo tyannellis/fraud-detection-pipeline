@@ -4,7 +4,7 @@
 This project simulates a real-time credit card transaction environment for fraud detection analytics.
 A Python Kafka producer streams synthetic transaction data (including fraudulent cases) into Kafka, which is then consumed, validated, stored as Parquet in Google Cloud Storage, and loaded into BigQuery for further analysis.
 
-The design mimics a production-grade streaming architecture you’d see in fintech or fraud prevention systems.
+The goal is to mimic a production-grade streaming architecture seen in fintech or fraud prevention systems.
 
 ## Architecture
 
