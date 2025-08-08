@@ -14,10 +14,9 @@ transaction_id, user_id,amount, merchant,transaction_timestamp , and is_fraud (b
 2. Kafka Topic (transactions) buffers real-time events.
 3. Consumer (Python) batches messages, validates schema, and writes Parquet files.
 4. Google Cloud Storage (GCS) stores Parquet files for durability and scalability.
-5. BigQuery Load Job ingests Parquet files into an analytics table for querying.
-6. (Planned): MERGE logic to make ingestion idempotent and prevent duplicate rows.
-7. (Planned): Transformations and modeling with dbt.
-8.  (Planned): Orchestration with Apache Airflow
+5. BigQuery Load Job ingests Parquet files with MERGE logic to prevent duplicate rows into an analytics table for querying.
+6. (Planned): Transformations and modeling with dbt.
+7. (Planned): Orchestration with Apache Airflow
 
 ### Technologies Used
 * Python (pandas, pyarrow, google-cloud-storage, confluent-kafka, Faker)
